@@ -3,14 +3,6 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 
-Route::group(['middleware' => 'web'], function () {
-    // ... lainnya
-
-    Auth::routes();
-
-    // ... lainnya
-});
-
 // Route::get('/listbarang/{id}/{nama}', function ($id, $nama){
 //     return view('list_barang', compact('id', 'nama'));
 // });
