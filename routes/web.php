@@ -7,7 +7,6 @@ use App\Http\Controllers\HomeController;
 //     return view('list_barang', compact('id', 'nama'));
 // });
 
-Auth::routes(['login', 'password.reset']);
 Route::get('/listbarang/{id}/{nama}', [ListBarangController::class, 'tampilkan']);
 Route::get('/', [HomeController::class, 'index']);
 Route::get('/contact', [HomeController::class, 'contact']);
