@@ -2,11 +2,14 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\LoginController;
 
 // Route::get('/listbarang/{id}/{nama}', function ($id, $nama){
 //     return view('list_barang', compact('id', 'nama'));
 // });
 
+Route::get('/login', [LoginController::class, 'showLoginForm'])->name('login.form');
+Route::post('/login', [LoginController::class, 'processLogin'])->name('login.process');
 Route::get('/listbarang/{id}/{nama}', [ListBarangController::class, 'tampilkan']);
 Route::get('/', [HomeController::class, 'index']);
 Route::get('/contact', [HomeController::class, 'contact']);
