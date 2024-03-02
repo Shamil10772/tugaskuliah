@@ -9,8 +9,8 @@
 
 <form method="POST" action="{{ route('login.process') }}">
     @csrf
-    <label>Email:</label><br>
-    <input type="email" name="email"><br>
+    <label>Username:</label><br>
+    <input type="username" name="username"><br>
 
     <label>Password:</label><br>
     <input type="password" name="password"><br>
