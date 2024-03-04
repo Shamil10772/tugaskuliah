@@ -13,6 +13,7 @@
                 <td>{{ $dataku['id'] }}</td>
                 <td>{{ $dataku['nama'] }}</td>
                 <td>{{ $dataku['harga'] }}</td>
+                <a href="{{ route('dashboard') }}">Back to Dashboard</a>
             </tr>
         @endforeach
     </tbody>

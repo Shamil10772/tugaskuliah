@@ -14,5 +14,8 @@ class LoginController extends Controller
     public function processLogin(Request $request)
     {
         // Proses autentikasi login di sini
+
+        // Jika autentikasi berhasil, arahkan ke halaman home
+        return view('home');
     }
 }
