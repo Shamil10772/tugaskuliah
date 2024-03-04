@@ -13,13 +13,13 @@ class HomeController extends Controller
         //     'pekerjaan' => 'Developer',
         // ];
         // return view('home')->with($data);
-        
+
         $nama = "Nobita";
         $pekerjaan = "Student";
         return view('home', compact('nama', 'pekerjaan'));
-    
+
     }
-    
+
     public function contact()
     {
         return view('contact');
