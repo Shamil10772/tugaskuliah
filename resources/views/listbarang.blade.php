@@ -15,7 +15,6 @@
                 <td>{{ $dataku['harga'] }}</td>
             </tr>
         @endforeach
-        <a href="{{ route('dashboard') }}">Go to dashboard</a>
     </tbody>
 </table>
 </html>
