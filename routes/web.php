@@ -26,4 +26,4 @@ Route::prefix('admin')->group(function () {
     Route::get('/users', function () {
         return 'Admin Users';
     });
-}); 
+});

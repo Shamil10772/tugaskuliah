@@ -1,9 +1,4 @@
-<html>
-<head>
-    <title>Dashboard</title>
-</head>
-<body>
-
-<h2>Welcome to Dashboard</h2>
-</body>
-</html>
+<div>
+<p>Welcome to Dashboard</p>
+<a href="{{ route get('listbarang') }}">Go to listbarang</a>
+</div>
