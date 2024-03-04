@@ -1,4 +1,6 @@
 <div>
-<p>Welcome to Dashboard</p>
-<a href="{{ route get('listbarang') }}">Go to listbarang</a>
+    <!-- Waste no more time arguing what a good man should be, be one. - Marcus Aurelius -->
+  Selamat datang di dashboard
+  ini adalah tampilan dashboard
+  <a href="{{ route('listbarang') }}">listbarang</a>
 </div>
